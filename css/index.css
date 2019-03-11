@@ -94,7 +94,7 @@ p {
 #nav-wrap nav a {
   text-decoration: none;
   color: black;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 /* Jumbotron */
@@ -114,6 +114,9 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+.about-page .top-content .text-container {
+  width: 98%;
 }
 
 /* Middle Content Section */
