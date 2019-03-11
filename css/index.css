@@ -93,6 +93,12 @@ p {
   text-decoration: none;
   color: black;
   font-size: 14px;
+  box-shadow: 0 0 5px white;
+  transition:
+    color .25s ease-in-out;
+}
+.nav-wrap nav a:hover {
+  color: gray;
 }
 
 /* Jumbotron */
@@ -195,6 +201,11 @@ p {
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 10px;
+  transition:
+    background-color .25s ease-in-out;
+}
+.about-page .middle-content .text-container a:hover {
+  background-color: lightgray;
 }
 .products-page .middle-content {
   border-bottom: none;
@@ -236,8 +247,12 @@ p {
   padding: 10px 20px;
   border: 2px solid black;
   border-radius: 10px;
+  transition:
+    background-color .25s ease-in-out;
 }
-
+.products-page .middle-content .text-container a:hover {
+  background-color: lightgray;
+}
 
 /* Bottom Content Section */
 .bottom-content {
