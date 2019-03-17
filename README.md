@@ -34,13 +34,24 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Meaningful, descriptive markup.
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+`display: block;` takes full width while `display: inline;` takes content width.
+`display: block;` respects box model fully while `display: inline;` only fully respects the width for the box model and although padding and border are somewhat respected vertically, they do not affect the items around them.
 
 3. What are the 4 areas of the box model?
 
+content, padding, border, margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+Git allows for version control for projects. This provides great control for tracking issues and where they came from, tracking changes being made during individual moments, and tracking progress over time. This also allows creating parallel versions which can be used to test features and when complete can be merged into the main product.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,3 +115,7 @@ After finishing your required elements, you can push your work further. These go
 * [ ] Introduce CSS animations to your site.
 * [ ] Build a contact page and create a form with several inputs of your choosing
 * [ ] Add responsive breakpoints to your code by using media queries
+
+---
+
+# This fork maintained by: Eric SarragaLugo
